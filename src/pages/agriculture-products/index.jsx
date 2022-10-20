@@ -2,6 +2,20 @@ import React from 'react';
 import { ExportProducts, HeroSection } from '../../collections';
 
 const AgricultureProducts = () => {
+  const products = [
+    'Seaseed',
+    'Ginger',
+    'Cahew Nuts',
+    'Tiger Nuts',
+    'Soybeans',
+    'Palm Kernel Oil',
+    'Moringa Seeds',
+    'Cocoa beans',
+    'Peanuts',
+    'Turmeric',
+    'Garlic',
+    'Almonds',
+  ];
   return (
     <div className='font-chivo custom-img'>
       <section>
@@ -15,7 +29,7 @@ const AgricultureProducts = () => {
       </section>
 
       <section className='container mx-auto'>
-        <ExportProducts />
+        <ExportProducts products={products} />
       </section>
     </div>
   );
