@@ -33,7 +33,9 @@ const AgricultureProducts = () => {
         <ExportProducts products={products} />
       </section>
 
-      <ContactForm/>
+      <section className='my-[90px]'>
+        <ContactForm />
+      </section>
     </div>
   );
 };
