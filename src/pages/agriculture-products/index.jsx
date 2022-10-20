@@ -1,5 +1,5 @@
 import React from 'react';
-import { HeroSection } from '../../collections';
+import { ExportProducts, HeroSection } from '../../collections';
 
 const AgricultureProducts = () => {
   return (
@@ -12,6 +12,10 @@ const AgricultureProducts = () => {
           }
           imgSrc='http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
         />
+      </section>
+
+      <section className='container mx-auto'>
+        <ExportProducts />
       </section>
     </div>
   );
