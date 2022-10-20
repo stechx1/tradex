@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExportProducts, HeroSection } from '../../collections';
+import { ContactForm } from '../../components';
 
 const AgricultureProducts = () => {
   const products = [
@@ -31,6 +32,8 @@ const AgricultureProducts = () => {
       <section className='container mx-auto'>
         <ExportProducts products={products} />
       </section>
+
+      <ContactForm/>
     </div>
   );
 };

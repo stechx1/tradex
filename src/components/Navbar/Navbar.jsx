@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 export const Navbar = () => {
   return (
-    <nav class='bg-darkBlue border-gray-200 px-2 sm:px-4 py-2.5 text-white'>
+    <nav class='bg-gray-900 border-gray-200 px-2 sm:px-4 py-2.5 text-white'>
       <div class='container flex flex-wrap justify-between items-center mx-auto'>
         <a href='https://flowbite.com/' class='flex items-center'>
           {/* <img
