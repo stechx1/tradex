@@ -9,7 +9,7 @@ module.exports = {
     extend: {
       colors: {
         darkBlue: '#202040',
-        secondary: "#FFE03D",
+        secondary: '#FFE03D',
       },
       fontFamily: {
         sans: ['Chivo', 'sans-serif'],

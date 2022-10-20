@@ -3,13 +3,14 @@ import { HeroSection } from '../../collections';
 
 const AgricultureProducts = () => {
   return (
-    <div className='container mx-auto font-chivo custom-img'>
+    <div className='font-chivo custom-img'>
       <section>
         <HeroSection
           title='Agriculure Products'
           para={
-            'We are helping develop these agri products at a higher rate than ever'
+            'We facilitate the supply of a broad range of agricultural products to over 54+ countries around the world.'
           }
+          imgSrc='http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
         />
       </section>
     </div>
