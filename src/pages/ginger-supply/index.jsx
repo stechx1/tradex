@@ -1,5 +1,10 @@
 import React from 'react';
-import { HeroSection } from '../../collections';
+import {
+  DepartmentSection,
+  GallerySection,
+  HeroSection,
+  MainSection,
+} from '../../collections';
 import { BreadCrumbs } from '../../components';
 
 const GingerSupply = () => {
@@ -13,23 +18,20 @@ const GingerSupply = () => {
         }
       />
       <section className='container mx-auto'>
-      <BreadCrumbs breadcrumbs={["ginger supply"]} />
+        <BreadCrumbs breadcrumbs={['ginger supply']} />
       </section>
 
-      <main className='grid grid-cols-2 md:grid-cols-3 space-x-10'>
+      <main className='px-14 bg-white font-chivo grid grid-cols-2 md:grid-cols-3 space-x-10'>
         <section>
-          {/* Department */}
-          Department
+          <DepartmentSection />
         </section>
 
         <section>
-          {/* Main */}
-          Main
+          <MainSection />
         </section>
 
         <section>
-          {/* Side gallery */}
-          Side Gallery
+          <GallerySection />
         </section>
       </main>
     </div>
