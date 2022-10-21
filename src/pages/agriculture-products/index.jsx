@@ -4,8 +4,8 @@ import { ContactForm } from '../../components';
 
 const AgricultureProducts = () => {
   const products = [
-    'Seaseed',
     'Ginger',
+    'Seaseed',
     'Cahew Nuts',
     'Tiger Nuts',
     'Soybeans',
