@@ -99,7 +99,7 @@ export const MainSection = ({ heading, italicPara }) => {
           <span className='font-bold'>WhatsApp/Tel: </span> +922763876432
         </p>
         <p>
-          <span className='font-bold'>Email: </span>1sttradex@gmail.com
+          <span className='font-bold'>Email: </span>1stcca-tradex@gmail.com
         </p>
       </div>
     </div>

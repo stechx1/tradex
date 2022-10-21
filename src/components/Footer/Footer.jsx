@@ -124,7 +124,7 @@ export const Footer = () => {
             md:justify-start
           '
             >
-              1sttradex
+              1stcca-tradex
             </h6>
             <p>
               Our global trade expertise enables us to export food, agricultural
@@ -257,7 +257,7 @@ export const Footer = () => {
           class='text-gray-600 font-semibold'
           href='https://tailwind-elements.com/'
         >
-          1sttradex
+          1stcca-tradex
         </a>
       </div>
     </footer>

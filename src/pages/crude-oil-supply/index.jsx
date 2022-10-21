@@ -1,13 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 import { Tabs } from 'antd';
-import {
-  DepartmentSection,
-  GallerySection,
-  HeroSection,
-  MainSection,
-  TabContent,
-} from '../../collections';
+import { DepartmentSection, HeroSection, TabContent } from '../../collections';
 import { BreadCrumbs, ContactForm } from '../../components';
 import { CrudeOilSupplySection } from '../../collections/MainSection/CrudeOilSupply/CrudeOilSupply';
 
@@ -54,7 +48,7 @@ const CrudeOilSupply = () => {
         <BreadCrumbs breadcrumbs={['Crude Oil Supply (BLCO)']} />
       </section>
 
-      <main className='px-14 bg-white grid grid-cols-2 md:grid-cols-4 gap-x-8'>
+      <main className='px-14 bg-white grid grid-cols-1 md:grid-cols-4 gap-x-8'>
         <section className='font-chivo'>
           <DepartmentSection />
         </section>
@@ -62,7 +56,7 @@ const CrudeOilSupply = () => {
         <section className='col-span-3'>
           {/* <CrudeOil/> */}
           <div>
-            <div className='flex items-start'>
+            <div className='flex flex-col lg:flex-row items-start'>
               <CrudeOilSupplySection />
               <img
                 className='mt-[90px] ml-[20px]'

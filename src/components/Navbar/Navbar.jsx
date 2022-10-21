@@ -14,7 +14,7 @@ export const Navbar = () => {
             alt='Flowbite Logo'
           /> */}
           <span className='self-center text-xl font-semibold whitespace-nowrap text-white'>
-            1sttradex
+          1stcca-tradex
           </span>
         </a>
         <button
