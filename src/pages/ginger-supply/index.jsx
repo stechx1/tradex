@@ -14,8 +14,24 @@ const GingerSupply = () => {
       />
       <section className='container mx-auto'>
       <BreadCrumbs breadcrumbs={["ginger supply"]} />
-
       </section>
+
+      <main className='grid grid-cols-2 md:grid-cols-3 space-x-10'>
+        <section>
+          {/* Department */}
+          Department
+        </section>
+
+        <section>
+          {/* Main */}
+          Main
+        </section>
+
+        <section>
+          {/* Side gallery */}
+          Side Gallery
+        </section>
+      </main>
     </div>
   );
 };
