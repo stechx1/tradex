@@ -33,7 +33,7 @@ const AgricultureProducts = () => {
         <ExportProducts products={products} />
       </section>
 
-      <section className='my-[90px]'>
+      <section className='mt-[90px]'>
         <ContactForm />
       </section>
     </div>
