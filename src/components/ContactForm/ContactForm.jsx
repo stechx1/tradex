@@ -1,12 +1,12 @@
-import { useState } from "react";
-import { Button } from "../Button";
+import { useState } from 'react';
+import { Button } from '../Button';
 
 export const ContactForm = () => {
-  const [email, setEmail] = useState("");
-  const [message, setMessage] = useState("");
-  const [subject, setSubject] = useState("");
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+  const [subject, setSubject] = useState('');
   return (
-    <section className='bg-gray-900 text-white'>
+    <section className='bg-gray-900 text-white font-chivo'>
       <div className='py-8 lg:py-16 px-4 mx-auto max-w-screen-md'>
         <h2 className='mb-4 text-4xl tracking-tight font-extrabold text-center text-white-900'>
           Contact Us
@@ -23,10 +23,12 @@ export const ContactForm = () => {
               Your email
             </label>
             <input
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               type='email'
               id='email'
               className='shadow-sm border text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light'
-              placeholder='name@flowbite.com'
+              placeholder='name@example.com'
               required
             />
           </div>
@@ -38,10 +40,12 @@ export const ContactForm = () => {
               Subject
             </label>
             <input
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
               type='text'
               id='subject'
               className='block p-3 w-full text-sm rounded-lg border  shadow-sm focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500 shadow-sm-light'
-              placeholder='Let us know how we can help you'
+              placeholder='Enter your subject here'
               required
             />
           </div>
@@ -53,6 +57,8 @@ export const ContactForm = () => {
               Your message
             </label>
             <textarea
+              value={message}
+              onChange={() => setMessage(e.target.value)}
               id='message'
               rows='6'
               className='block p-2.5 w-full text-sm  rounded-lg shadow-sm border focus:ring-primary-500 focus:border-primary-500 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-primary-500 focus:border-primary-500'
