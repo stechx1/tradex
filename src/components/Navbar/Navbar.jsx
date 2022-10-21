@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 /* eslint-disable @next/next/no-img-element */
 export const Navbar = () => {
   return (
@@ -36,47 +38,44 @@ export const Navbar = () => {
           </svg>
         </button>
         <div class='hidden w-full md:block md:w-auto' id='navbar-default'>
-          <ul class='flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 md:bg-white'>
+          <ul class='flex flex-col p-4 mt-4 rounded-lg md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:border-0 text-white'>
             <li>
-              <a
-                href='#'
-                class='block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0'
-                aria-current='page'
-              >
-                Home
-              </a>
+              <Link href={'/'}>
+                <a
+                  class='block py-2 pr-4 pl-3 text-secondary rounded md:bg-transparent md:hover:text-secondary md:p-0'
+                  aria-current='page'
+                >
+                  Home
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='#'
-                class='block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'
-              >
-                About
-              </a>
+              <Link href={'/'}>
+                <a class='block py-2 pr-4 pl-3 text-gray-300 rounded md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0'>
+                  About
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='#'
-                class='block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'
-              >
-                Services
-              </a>
+              <Link href={'/agriculture-products'}>
+                <a class='block py-2 pr-4 pl-3 text-gray-300 rounded md:hover:bg-transparent md:border-0 md:p-0 md:hover:text-secondary'>
+                  Agriculture Products
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='#'
-                class='block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'
-              >
-                Pricing
-              </a>
+              <Link href={'/precious-stones'}>
+                <a class='block py-2 pr-4 pl-3 text-gray-300 rounded md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0'>
+                  Precious Stones & Metals
+                </a>
+              </Link>
             </li>
             <li>
-              <a
-                href='#'
-                class='block py-2 pr-4 pl-3 text-gray-700 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0'
-              >
-                Contact
-              </a>
+              <Link href={'/oil-gas-supply'}>
+                <a class='block py-2 pr-4 pl-3 text-gray-300 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-secondary md:p-0'>
+                  Oil & Gas Supply
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
