@@ -11,3 +11,12 @@ export default function Home() {
     </>
   );
 }
+
+export async function getServerSideProps(context) {
+  return {
+    redirect: {
+      permanent: false,
+      destination: '/agriculture-products',
+    },
+  };
+}
