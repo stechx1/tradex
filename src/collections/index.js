@@ -3,3 +3,4 @@ export * from './ExportProducts';
 export * from './MainSection';
 export * from './DepartmentSection';
 export * from './GallerySection';
+export * from './TabContent';
