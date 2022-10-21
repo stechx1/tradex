@@ -3,7 +3,7 @@ import { Button } from '../../components';
 
 export const DepartmentSection = () => {
   return (
-    <div className='sticky top-0 my-5'>
+    <div className='sticky top-10 my-8'>
       <div className='h-1 w-[200px] bg-black'></div>
       <div className='mb-[80px]'>
         <h2 className='font-semibold uppercase tracking-wide text-xl my-3'>

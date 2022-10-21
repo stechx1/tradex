@@ -21,16 +21,19 @@ const GingerSupply = () => {
         <BreadCrumbs breadcrumbs={['ginger supply']} />
       </section>
 
-      <main className='px-14 bg-white font-chivo grid grid-cols-2 md:grid-cols-3 space-x-10'>
-        <section>
+      <main className='px-14 bg-white grid grid-cols-2 md:grid-cols-3 gap-x-2'>
+        <section className='font-chivo'>
           <DepartmentSection />
         </section>
 
         <section>
-          <MainSection />
+          <MainSection
+            heading={'Our Service to you'}
+            italicPara='“We supply and export Ginger to international buyers in many countries around the world.”'
+          />
         </section>
 
-        <section>
+        <section className='font-chivo'>
           <GallerySection />
         </section>
       </main>
