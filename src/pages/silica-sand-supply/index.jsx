@@ -9,43 +9,20 @@ import {
   TabContent,
 } from '../../collections';
 import { BreadCrumbs, ContactForm } from '../../components';
-import { CrudeOilSupplySection } from '../../collections/MainSection/CrudeOilSupply/CrudeOilSupply';
+import { SilicaSection } from '../../collections/MainSection/SilicaSection/SilicaSection';
 
-const CrudeOilSupply = () => {
+const SilicaSandSupply = () => {
   const images = [
     '/images/ginger/ginger-1.jpeg',
     '/images/ginger/ginger-2.jpeg',
     '/images/ginger/ginger-3.jpeg',
     '/images/ginger/ginger-4.jpeg',
-    '/images/ginger/ginger-5.png',
-    '/images/ginger/ginger-6.jpeg',
-    '/images/ginger/ginger-7.jpeg',
-    '/images/ginger/ginger-8.jpeg',
-    '/images/ginger/ginger-9.jpeg',
-    '/images/ginger/ginger-10.jpeg',
-    '/images/ginger/ginger-11.jpeg',
-    '/images/ginger/ginger-12.jpeg',
-    '/images/ginger/ginger-13.jpeg',
-    '/images/ginger/ginger-14.jpeg',
-    '/images/ginger/ginger-15.jpeg',
-    '/images/ginger/ginger-16.jpeg',
-    '/images/ginger/ginger-17.jpeg',
-    '/images/ginger/ginger-19.jpeg',
-    '/images/ginger/ginger-20.jpeg',
-    '/images/ginger/ginger-21.jpeg',
-    '/images/ginger/ginger-22.jpeg',
-    '/images/ginger/ginger-23.jpeg',
-    '/images/ginger/ginger-24.jpeg',
-    '/images/ginger/ginger-25.jpeg',
-    '/images/ginger/ginger-26.jpeg',
   ];
   return (
     <div>
       <HeroSection
-        title='Crude Oil Supply (BLCO)'
-        para={
-          'We facilitate the supply of Crude Oil (BLCO) on OPEC and OFF-OPEC terms'
-        }
+        title='Silica Sand / Glass Sand / Quartz Supply & Export'
+        para={'We supply and export Silica Sand minerals and Quartz.'}
         imgSrc={
           'http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
         }
@@ -63,13 +40,10 @@ const CrudeOilSupply = () => {
           {/* <CrudeOil/> */}
           <div>
             <div className='flex items-start'>
-              <CrudeOilSupplySection />
-              <img
-                className='mt-[90px] ml-[20px]'
-                width={500}
-                src='/images/ginger/ginger-1.jpeg'
-                alt='image'
-              />
+              <SilicaSection />
+              <div className='ml-5'>
+                <GallerySection images={images} />
+              </div>
             </div>
           </div>
 
@@ -77,17 +51,11 @@ const CrudeOilSupply = () => {
             <Tabs defaultActiveKey='1'>
               <Tabs.TabPane tab='About Ginger' key='1'>
                 <TabContent>
-                  <h2 className='font-bold'>What is Crude Oil? </h2>
+                  <h2 className='font-bold'>What is Silica Sand? </h2>
                   <p>
-                    Crude oil is commonly known as petrol. It is a liquid found
-                    within the Earth comprised of hydrocarbons, organic
-                    compounds and small amounts of metal. Crude oil is typically
-                    obtained through drilling, where it is usually found
-                    alongside other resources, such as natural gas (which is
-                    lighter and therefore sits above the crude oil) and saline
-                    water (which is denser and sinks below). It is then refined
-                    and processed into a variety of forms, such as gasoline,
-                    diesel, kerosene and various forms of petrochemicals.
+                    Silica Sand is quartz that over time, through the work of
+                    water and wind, has been broken down into tiny granules.
+                    Quartz is silica occurring alone in pure state.
                   </p>
                 </TabContent>
               </Tabs.TabPane>
@@ -128,4 +96,4 @@ const CrudeOilSupply = () => {
   );
 };
 
-export default CrudeOilSupply;
+export default SilicaSandSupply;
