@@ -40,9 +40,7 @@ const CrudeOilSupply = () => {
         para={
           'We facilitate the supply of Crude Oil (BLCO) on OPEC and OFF-OPEC terms'
         }
-        imgSrc={
-          'http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
-        }
+        imgSrc={'/images/placeholder-1.jpg'}
       />
       <section className='container mx-auto'>
         <BreadCrumbs breadcrumbs={['Crude Oil Supply (BLCO)']} />

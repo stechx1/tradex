@@ -24,7 +24,7 @@ const SilicaSandSupply = () => {
         title='Silica Sand / Glass Sand / Quartz Supply & Export'
         para={'We supply and export Silica Sand minerals and Quartz.'}
         imgSrc={
-          'http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
+          '/images/placeholder-1.jpg'
         }
       />
       <section className='container mx-auto'>

@@ -25,7 +25,7 @@ const PreciousStones = () => {
           para={
             'We export a broad range of precious stones and precious metals to over 54+ countries around the world.'
           }
-          imgSrc='http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
+          imgSrc='/images/placeholder-1.jpg'
         />
       </section>
 

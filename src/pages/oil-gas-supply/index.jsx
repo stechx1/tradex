@@ -25,7 +25,7 @@ const OilGasSupply = () => {
           para={
             'We facilitate the supply of a broad range of petroleum & gas products to over 54+ countries around the world.'
           }
-          imgSrc='http://globexia.com/wp-content/uploads/2017/10/fbq-default-placeholder-1.jpg'
+          imgSrc='/images/placeholder-1.jpg'
         />
       </section>
 
