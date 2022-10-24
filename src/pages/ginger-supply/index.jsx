@@ -9,38 +9,43 @@ import { BreadCrumbs } from '../../components';
 
 const GingerSupply = () => {
   const images = [
-    '/images/ginger/ginger-1.jpeg',
-    '/images/ginger/ginger-2.jpeg',
-    '/images/ginger/ginger-3.jpeg',
-    '/images/ginger/ginger-4.jpeg',
-    '/images/ginger/ginger-5.png',
-    '/images/ginger/ginger-6.jpeg',
-    '/images/ginger/ginger-7.jpeg',
-    '/images/ginger/ginger-8.jpeg',
-    '/images/ginger/ginger-9.jpeg',
-    '/images/ginger/ginger-10.jpeg',
-    '/images/ginger/ginger-11.jpeg',
-    '/images/ginger/ginger-12.jpeg',
-    '/images/ginger/ginger-13.jpeg',
-    '/images/ginger/ginger-14.jpeg',
-    '/images/ginger/ginger-15.jpeg',
-    '/images/ginger/ginger-16.jpeg',
-    '/images/ginger/ginger-17.jpeg',
-    '/images/ginger/ginger-19.jpeg',
-    '/images/ginger/ginger-20.jpeg',
-    '/images/ginger/ginger-21.jpeg',
-    '/images/ginger/ginger-22.jpeg',
-    '/images/ginger/ginger-23.jpeg',
-    '/images/ginger/ginger-24.jpeg',
-    '/images/ginger/ginger-25.jpeg',
-    '/images/ginger/ginger-26.jpeg',
+    '/images/stock/ginger-3.jpeg',
+    '/images/stock/ginger-4.jpeg',
+    '/images/stock/ginger-5.jpeg',
+    '/images/stock/ginger-2.jpeg',
+    '/images/stock/ginger-1.jpeg',
+    // '/images/ginger/ginger-1.jpeg',
+    // '/images/ginger/ginger-2.jpeg',
+    // '/images/ginger/ginger-3.jpeg',
+    // '/images/ginger/ginger-4.jpeg',
+    // '/images/ginger/ginger-5.png',
+    // '/images/ginger/ginger-6.jpeg',
+    // '/images/ginger/ginger-7.jpeg',
+    // '/images/ginger/ginger-8.jpeg',
+    // '/images/ginger/ginger-9.jpeg',
+    // '/images/ginger/ginger-10.jpeg',
+    // '/images/ginger/ginger-11.jpeg',
+    // '/images/ginger/ginger-12.jpeg',
+    // '/images/ginger/ginger-13.jpeg',
+    // '/images/ginger/ginger-14.jpeg',
+    // '/images/ginger/ginger-15.jpeg',
+    // '/images/ginger/ginger-16.jpeg',
+    // '/images/ginger/ginger-17.jpeg',
+    // '/images/ginger/ginger-19.jpeg',
+    // '/images/ginger/ginger-20.jpeg',
+    // '/images/ginger/ginger-21.jpeg',
+    // '/images/ginger/ginger-22.jpeg',
+    // '/images/ginger/ginger-23.jpeg',
+    // '/images/ginger/ginger-24.jpeg',
+    // '/images/ginger/ginger-25.jpeg',
+    // '/images/ginger/ginger-26.jpeg',
   ];
   return (
     <div>
       <HeroSection
         title='Fresh Ginger & Sun Dried Split Ginger Exporters'
         para={'We are fresh ginger and dry split ginger exporters'}
-        imgSrc={'/images/placeholder-1.jpg'}
+        imgSrc={'/images/stock/ginger-1.jpeg'}
       />
       <section className='container mx-auto'>
         <BreadCrumbs breadcrumbs={['ginger supply']} />

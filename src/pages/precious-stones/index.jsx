@@ -25,7 +25,7 @@ const PreciousStones = () => {
           para={
             'We export a broad range of precious stones and precious metals to over 54+ countries around the world.'
           }
-          imgSrc='/images/placeholder-1.jpg'
+          imgSrc='/images/stock/stones-metals.jpeg'
         />
       </section>
 

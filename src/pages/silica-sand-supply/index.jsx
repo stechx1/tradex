@@ -13,10 +13,10 @@ import { SilicaSection } from '../../collections/MainSection/SilicaSection/Silic
 
 const SilicaSandSupply = () => {
   const images = [
-    '/images/ginger/ginger-1.jpeg',
-    '/images/ginger/ginger-2.jpeg',
-    '/images/ginger/ginger-3.jpeg',
-    '/images/ginger/ginger-4.jpeg',
+    '/images/stock/silica-sand-1.jpeg',
+    '/images/stock/silica-sand-2.jpeg',
+    '/images/stock/silica-sand-5.jpeg',
+    '/images/stock/silica-sand-4.jpeg',
   ];
   return (
     <div>
@@ -24,7 +24,7 @@ const SilicaSandSupply = () => {
         title='Silica Sand / Glass Sand / Quartz Supply & Export'
         para={'We supply and export Silica Sand minerals and Quartz.'}
         imgSrc={
-          '/images/placeholder-1.jpg'
+          '/images/stock/silica-sand-3.jpeg'
         }
       />
       <section className='container mx-auto'>
@@ -39,9 +39,9 @@ const SilicaSandSupply = () => {
         <section className='col-span-3'>
           {/* <CrudeOil/> */}
           <div>
-            <div className='flex items-start'>
+            <div className='flex flex-col md:flex-row items-start space-x-10'>
               <SilicaSection />
-              <div className='ml-5'>
+              <div className='max-w-[450px]'>
                 <GallerySection images={images} />
               </div>
             </div>

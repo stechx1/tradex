@@ -25,7 +25,7 @@ const OilGasSupply = () => {
           para={
             'We facilitate the supply of a broad range of petroleum & gas products to over 54+ countries around the world.'
           }
-          imgSrc='/images/placeholder-1.jpg'
+          imgSrc='/images/stock/petroleum.jpeg'
         />
       </section>
 

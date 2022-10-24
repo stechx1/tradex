@@ -40,7 +40,7 @@ const CrudeOilSupply = () => {
         para={
           'We facilitate the supply of Crude Oil (BLCO) on OPEC and OFF-OPEC terms'
         }
-        imgSrc={'/images/placeholder-1.jpg'}
+        imgSrc={'/images/stock/crude-oil-2.jpeg'}
       />
       <section className='container mx-auto'>
         <BreadCrumbs breadcrumbs={['Crude Oil Supply (BLCO)']} />
@@ -57,9 +57,9 @@ const CrudeOilSupply = () => {
             <div className='flex flex-col lg:flex-row items-start'>
               <CrudeOilSupplySection />
               <img
-                className='mt-[90px] ml-[20px]'
+                className='mt-[40px] ml-[20px]'
                 width={500}
-                src='/images/ginger/ginger-1.jpeg'
+                src='/images/stock/crude-oil.jpeg'
                 alt='image'
               />
             </div>

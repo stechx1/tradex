@@ -25,7 +25,7 @@ const AgricultureProducts = () => {
           para={
             'We facilitate the supply of a broad range of agricultural products to over 54+ countries around the world.'
           }
-          imgSrc='/images/placeholder-1.jpg'
+          imgSrc='/images/stock/agriculture.jpeg'
         />
       </section>
 
