@@ -1,21 +1,22 @@
 import React from 'react';
 import { ExportProducts, HeroSection } from '../../collections';
+import { NewProducts } from '../../collections/NewProducts';
 import { ContactForm } from '../../components';
 
 const AgricultureProducts = () => {
   const products = [
-    'Ginger',
-    'Seaseed',
-    'Cahew Nuts',
-    'Tiger Nuts',
-    'Soybeans',
-    'Palm Kernel Oil',
-    'Moringa Seeds',
-    'Cocoa beans',
-    'Peanuts',
-    'Turmeric',
-    'Garlic',
-    'Almonds',
+    {name: "Ginger", imgName:'ginger-2.jpeg'},
+    {name: "Seaseed", imgName:'seaseeds.webp'},
+    {name: "Cahew Nuts", imgName:'cashew.jpeg'},
+    {name: "Tiger Nuts", imgName:'tiger-nuts.jpeg'},
+    {name: "Soybeans", imgName:'soy-beans.jpeg'},
+    {name: "Palm Kernel Oil", imgName:'palm-kernel-oil.jpeg'},
+    {name: "Moringa Seeds", imgName:'moringa-seeds.png'},
+    {name: "Cocoa beans", imgName:'cocoa-beans.jpeg'},
+    {name: "Peanuts", imgName:'peanuts.jpeg'},
+    {name: "Turmeric", imgName:'turmeric.jpeg'},
+    {name: "Garlic", imgName:'garlic.jpeg'},
+    {name: "Almonds", imgName:'almonds.jpeg'},
   ];
   return (
     <div className='font-chivo custom-img'>
@@ -30,7 +31,7 @@ const AgricultureProducts = () => {
       </section>
 
       <section className='container mx-auto'>
-        <ExportProducts products={products} />
+        <NewProducts products={products}/>
       </section>
 
       <section className='mt-[90px]'>

@@ -1,5 +1,6 @@
 import React from 'react';
 import { ExportProducts, HeroSection } from '../../collections';
+import { PreciousProducts } from '../../collections/NewProducts/PreciousProducts';
 import { ContactForm } from '../../components';
 
 const PreciousStones = () => {
@@ -11,7 +12,6 @@ const PreciousStones = () => {
     'Tourmaline',
     'Gold',
     'Sapphire',
-    'Helidort',
     'Garnet',
     'Topaz',
     'Emerald',
@@ -30,7 +30,7 @@ const PreciousStones = () => {
       </section>
 
       <section className='container mx-auto'>
-        <ExportProducts products={products} />
+        <PreciousProducts products={products}/>
       </section>
 
       <section className='my-[90px]'>

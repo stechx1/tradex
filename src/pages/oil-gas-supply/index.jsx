@@ -1,21 +1,18 @@
 import React from 'react';
 import { ExportProducts, HeroSection } from '../../collections';
+import { OilProducts } from '../../collections/NewProducts/OilProducts';
 import { ContactForm } from '../../components';
 
 const OilGasSupply = () => {
   const products = [
     'Crude Oil',
     'Disel',
-    'Aquamarine',
-    'Morganite',
-    'Tourmaline',
-    'Gold',
-    'Sapphire',
-    'Helidort',
-    'Garnet',
-    'Topaz',
-    'Emerald',
-    'Agate',
+    'Jet Fuel',
+    'Petrol',
+    'Kerosene',
+    'LPG',
+    'Pet Coke',
+    'LPFO',
   ];
   return (
     <div className='font-chivo custom-img'>
@@ -30,7 +27,7 @@ const OilGasSupply = () => {
       </section>
 
       <section className='container mx-auto'>
-        <ExportProducts products={products} />
+        <OilProducts products={products} />
       </section>
 
       <section className='my-[90px]'>
